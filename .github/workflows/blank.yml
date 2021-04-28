@@ -23,6 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm install @actions/core @actions/github @commitlint/config-conventional @commitlint/lint @commitlint/load
 
-      - name: Checks the PR title
-        run: node useTestTitle
+      - name: test unit
+        run: npm run test
 
